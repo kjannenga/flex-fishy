@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/140ac781e8.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-around">
+                <div class="card m-2 col-5">
+                    <p id="instructions">
+                        <h5 class="m-2">Welcome to Flexbox Fishy, a game where you help Fishy and friends by writing CSS-Bootstrap code! Guide this fish to the bowl on the right by using the <code class="help">justify-content</code> property, which aligns items horizontally and accepts the following values:</h5>
+                        <ul class="list-group pl-5">
+                            <li class="list-group-item"><code>justify-content-start</code>: Items align to the left side of the container.</li>
+                            <li class="list-group-item"><code>justify-content-end</code>: Items align to the right side of the container.</li>
+                            <li class="list-group-item"><code>justify-content-center</code>: Items align at the center of the container.</li>
+                            <li class="list-group-item"><code>justify-content-between</code>: Items display with equal spacing between them.</li>
+                            <li class="list-group-item"><code>justify-content-around</code>: Items display with equal spacing around them.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-5 m-2 p-4 border rounded">
+                    <div id="fishbowl" class="d-flex justify-content-end">
+                        <div class="back">
+                            <i class="fas fa-circle-notch fa-5x text-success "></i>
+                        </div>
+                    </div>
+                    <div id="fishy" class="d-flex ">
+                        <i class="fas fa-fish fa-2x text-success p-4"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 mt-3">
+                <form action="" id = "moveFish">
+                    <input type="text" class="form-control  mb-2" name="" id="directions">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+            <div id="finished" class="m-2 pt-3">
+                <div id="pageName" class='./levelTwo.html'> </div>       
+            </div>
+
+        </div>
+
+        <script src="levelOne.js" async defer></script>
+    </body>
+</html>

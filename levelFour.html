@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/140ac781e8.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-around">
+            <div class="card m-2 col-5">
+                <p id="instructions">
+                    <p id="instructions">
+                        <h5>Help all three fishies find their bowls just by using <code>justify-content</code>. This time, the bowls have lots of space all
+                            around them.</h5>
+                        <p>If you find yourself forgetting the possible values for a property, you can go to bootstrap.com to learn more</p>
+                        <p>*fish do not align perfectly</p>
+                    </p>
+                </p>
+            </div>
+            <div class="col-5 m-2 p-4 border rounded">
+                <div id="fishbowl" class="d-flex justify-content-between">
+                    <div class="back">
+                        <i class="fas fa-circle-notch fa-5x text-success"></i>
+                        <i class="fas fa-circle-notch fa-5x text-warning"></i>
+                        <i class="fas fa-circle-notch fa-5x  text-danger"></i>
+                    </div>
+                </div>
+                <div id="fishy" class="d-flex  justify-content-between">
+                    <i class="fas fa-fish fa-2x text-success py-4"></i>
+                    <i class="fas fa-fish fa-2x text-warning py-4 "></i>
+                    <i class="fas fa-fish fa-2x text-danger py-4"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-3 mt-3">
+            <form action="" id="moveFish">
+                <input type="text" class="form-control  mb-2" name="" id="directions">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div id="finished" class="m-2 pt-3">
+            <div id="pageName" class='./levelFour.html'> </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="levelOne.js" async defer></script>
+</body>
+
+</html>
